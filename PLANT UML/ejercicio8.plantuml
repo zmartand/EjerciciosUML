@@ -1,0 +1,6 @@
+@startuml
+Object Actuacion
+Actuacion : Fecha de inicio = 06/02/2023
+Actuacion : Fecha de fin = 10/02/2023
+Actuacion : Tipo = "Excavación"
+@enduml

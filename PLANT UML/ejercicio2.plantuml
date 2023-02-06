@@ -1,0 +1,28 @@
+@startuml
+Object Kate
+Kate : Nombre = "Kate"
+Kate : Apellido = "Windsor"
+Kate : Apellido Nacimiento = "Middleton"
+Kate : Sexo = "Mujer"
+
+Object Guillermo
+Guillermo : Nombre = "Guillermo"
+Guillermo : Apellido = "Windsor"
+Guillermo : Sexo = "Hombre"
+
+Object Diana
+Diana : Nombre = "Diana"
+Diana : Apellido = "Windsor"
+Diana : Apellido Nacimiento = "Spencer"
+Diana : Sexo = "Mujer"
+
+Object Carlos
+Carlos : Nombre = "Carlos"
+Carlos : Apellido = "Windsor"
+Carlos : Sexo = "Hombre"
+
+Kate - Guillermo : Está Casado Con <
+Diana - Guillermo : < Es hijo De
+Diana - Carlos : Está Casado Con <
+Carlos -- Guillermo : < Es hijo De
+@enduml
