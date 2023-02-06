@@ -1,0 +1,19 @@
+@startuml
+Object Circulo
+Circulo : Color = "Negro"
+Circulo : Diámetro = 1
+
+Object Rectangulo
+Rectangulo : Longitud = 3
+Rectangulo : Anchura = 1
+Rectangulo : Color = "Naranja"
+
+Object Cuadrado 
+Cuadrado : Longitud = 1.5
+Cuadrado : Color = "Azul"
+
+Object Elipse
+Elipse : Color = "Amarillo"
+Elipse : Eje Mayor = 3
+Elipse : Eje Menor = 1
+@enduml

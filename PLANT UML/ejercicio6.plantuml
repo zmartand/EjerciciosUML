@@ -1,0 +1,10 @@
+@startuml
+Object Persona
+Persona : Nombre = Pepito
+Persona : Primer apellido = Torres
+Persona : Segundo apellido = Martin
+Persona : Fecha de nacimiento = 10/05/2003
+Persona : Sexo = Masculino
+Persona :  Número de identificación = 987566
+
+@enduml
