@@ -1,0 +1,22 @@
+@startuml
+Object CatedralDeSantiago
+CatedralDeSantiago : Nombre = "Catedral de Santiago de Compostela" \nFecha inicio construcción = 1075 \nFecha fin construcción = 1122 \nFecha primera consagración = 1128 \nFecha inicio segunda etapa construcción = 1168 \nFecha segunda consagración = 3 de abril de 1211 \nFecha declaración BIC = 1896 \Material = Granito \nEstilo = Romántico, Gótico, Barroco, Plateresco, Neoclásico
+
+Object Lugar
+Lugar : Ciudad = "Santiago de Compostela"
+Lugar : Comunidad = "Galicia"
+Lugar : País = "España"
+
+Object EtapaDeConstruccion1
+EtapaDeConstruccion1 : Fecha inicio = 1075
+EtapaDeConstruccion1 : Fecha fin = 1122
+
+Object EtapaDeConstruccion2 
+EtapaDeConstruccion2 : Fecha inicio = 1168
+EtapaDeConstruccion2 : Fecha fin = nulo
+
+CatedralDeSantiago - Lugar : Se encuentra en >
+CatedralDeSantiago -- EtapaDeConstruccion1 : Se construyó durante >
+CatedralDeSantiago -- EtapaDeConstruccion2 : Se construyó durante >
+
+@enduml
