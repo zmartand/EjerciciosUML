@@ -1,8 +1,7 @@
 # EjerciciosUML
 Ejercicio 1
 
-<img src = "https://www.plantuml.com/plantuml/svg/NOrDYiCm38NtFeNn0GP2cCt0G48ck_c1kO4QczH1jefYBzhRz2ozMDsqZUDk9A7lyRrc3i0XEXH_kyaCGNQMXuWa7bj-o8wGM7vAzMj69hKXN_PoTYOm9Lg9f-4_3V3ZJPBFbFucFzeGTGhN9Mdzi8yCYwK0kHeO_0HgBUaYQ0PDKgnNqL2zlMz85hMdYDdIeptCHjnN4NF05f5KPlrav0yS5rw_l8rVtfLeZDVHuHK0
-"/>
+<img src = "https://www.plantuml.com/plantuml/svg/NOrDYiCm38NtFeNn0GP2cCt0G48ck_c1kO4QczH1jefYBzhRz2ozMDsqZUDk9A7lyRrc3i0XEXH_kyaCGNQMXuWa7bj-o8wGM7vAzMj69hKXN_PoTYOm9Lg9f-4_3V3ZJPBFbFucFzeGTGhN9Mdzi8yCYwK0kHeO_0HgBUaYQ0PDKgnNqL2zlMz85hMdYDdIeptCHjnN4NF05f5KPlrav0yS5rw_l8rVtfLeZDVHuHK0"/>
 
 
 
