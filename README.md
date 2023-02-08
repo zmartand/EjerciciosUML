@@ -27,7 +27,7 @@ Ejercicio 6
 
 Ejercicio 7
 
-<img src = https://www.plantuml.com/plantuml/svg/PO-zJiCm54RtFCMLHuO8rao944mG8SG0esDVu4gsR_2F149ziQvziJfMMYkjDvyZVqVkGvG-9ciQPMG885uy_w6A30B-6yXdP3jvx43SmHl-HXQ5FgBwbg0Ho94YxY1RGZlprdwIw-2sRSzsT-eyv_laEO160my_YMOMELXxQsv1mup6aEQmeQziolRDYkhsK_gIViaFAYQfYDtbP-gpWk-PlKOdjOJtfJ4UzXRzbVkehkHwT3fPSmG0 
+<img src = "https://www.plantuml.com/plantuml/svg/PO-zJiCm54RtFCMLHuO8rao944mG8SG0esDVu4gsR_2F149ziQvziJfMMYkjDvyZVqVkGvG-9ciQPMG885uy_w6A30B-6yXdP3jvx43SmHl-HXQ5FgBwbg0Ho94YxY1RGZlprdwIw-2sRSzsT-eyv_laEO160my_YMOMELXxQsv1mup6aEQmeQziolRDYkhsK_gIViaFAYQfYDtbP-gpWk-PlKOdjOJtfJ4UzXRzbVkehkHwT3fPSmG0 
 " width = "350px"/>
 
 Ejercicio 8
