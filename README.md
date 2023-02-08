@@ -23,8 +23,7 @@ Ejercicio 5
 
 Ejercicio 6
 
-<img src = "https://www.plantuml.com/plantuml/svg/LOzDpe8m48Rtd6B21UZt6V0dCM7bJYJH2vHsr37jbBGbyLxkt78nIy82LhEOPvvvtpf4wUDWJNRfNgWYjEY3OvdD4mxGEDjvX2FaBVOKNRxOjPuiUf0z6aFQJT3DUOzX2LtnCR1sA-gSlX8lgHEgfmIDm5AH9UGuWN-Y46NnByHc9NpFag06GxoA1CtuJPdSf2ATD7GdbPJZXzFDVhSjgoghaNKg_GC0
-"/>
+<img src = "https://www.plantuml.com/plantuml/svg/LOzDpe8m48Rtd6B21UZt6V0dCM7bJYJH2vHsr37jbBGbyLxkt78nIy82LhEOPvvvtpf4wUDWJNRfNgWYjEY3OvdD4mxGEDjvX2FaBVOKNRxOjPuiUf0z6aFQJT3DUOzX2LtnCR1sA-gSlX8lgHEgfmIDm5AH9UGuWN-Y46NnByHc9NpFag06GxoA1CtuJPdSf2ATD7GdbPJZXzFDVhSjgoghaNKg_GC0"/>
 
 Ejercicio 7
 
