@@ -1,11 +1,13 @@
 # EjerciciosUML
-Ejercicio 1
+
+## Participantes: Ana García, Fernando Mejías, Eloy Sánchez y Zara Martín
+###Ejercicio 1
 
 <img src = "https://www.plantuml.com/plantuml/svg/NOrDYiCm38NtFeNn0GP2cCt0G48ck_c1kO4QczH1jefYBzhRz2ozMDsqZUDk9A7lyRrc3i0XEXH_kyaCGNQMXuWa7bj-o8wGM7vAzMj69hKXN_PoTYOm9Lg9f-4_3V3ZJPBFbFucFzeGTGhN9Mdzi8yCYwK0kHeO_0HgBUaYQ0PDKgnNqL2zlMz85hMdYDdIeptCHjnN4NF05f5KPlrav0yS5rw_l8rVtfLeZDVHuHK0"/>
 
 
 
-Ejercicio 2
+###Ejercicio 2
 
 <img src = "https://www.plantuml.com/plantuml/svg/VL11JWCn3Bpd5LRk_G0gKb6BG4AKGm-SquqbidBYAibAV8Uty36osTOGDVJYNSrCPiRUf6nYdZofj-E8GuONar7D0-vWp_uO4Uv1pu2-m0yd97AMP-BT1PiuNdDxCpZlCEGgUtNM4cOE8ZpWvy9C8vRdb_YdoH5XzApahoaYg6u4dKgDGEAUgzDltiwPO5ITJKv5j11TVo7xEnzE60OKtRyhRqqaJchvD2KMI0lLhI7izOxrr2luUuV7bB-_IcGonMNB0TRdUgriNOJmuKQ67Of0WZecPsvrmsQ3mKwUVW00"/>
 
