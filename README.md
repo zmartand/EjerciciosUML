@@ -27,18 +27,15 @@ Ejercicio 6
 
 Ejercicio 7
 
-<img src = "https://www.plantuml.com/plantuml/svg/PO-zJiCm54RtFCMLHuO8rao944mG8SG0esDVu4gsR_2F149ziQvziJfMMYkjDvyZVqVkGvG-9ciQPMG885uy_w6A30B-6yXdP3jvx43SmHl-HXQ5FgBwbg0Ho94YxY1RGZlprdwIw-2sRSzsT-eyv_laEO160my_YMOMELXxQsv1mup6aEQmeQziolRDYkhsK_gIViaFAYQfYDtbP-gpWk-PlKOdjOJtfJ4UzXRzbVkehkHwT3fPSmG0 
-"/>
+<img src = "https://www.plantuml.com/plantuml/svg/PO-zJiCm54RtFCMLHuO8rao944mG8SG0esDVu4gsR_2F149ziQvziJfMMYkjDvyZVqVkGvG-9ciQPMG885uy_w6A30B-6yXdP3jvx43SmHl-HXQ5FgBwbg0Ho94YxY1RGZlprdwIw-2sRSzsT-eyv_laEO160my_YMOMELXxQsv1mup6aEQmeQziolRDYkhsK_gIViaFAYQfYDtbP-gpWk-PlKOdjOJtfJ4UzXRzbVkehkHwT3fPSmG0"/>
 
 Ejercicio 8
 
-<img src = "https://www.plantuml.com/plantuml/svg/SoWkIImgAStDuV9FoafDBb5mJ2ufJKpEpC_ZWhCKh1JSKfCp4XLIKXKoypA1GWgs2WPc-WP6-aO6HiRO5QPbvW5L6HfWLHMIMG0oGycr8Zcn32XuU7EU4fT3QbuAq240
-"/>
+<img src = "https://www.plantuml.com/plantuml/svg/SoWkIImgAStDuV9FoafDBb5mJ2ufJKpEpC_ZWhCKh1JSKfCp4XLIKXKoypA1GWgs2WPc-WP6-aO6HiRO5QPbvW5L6HfWLHMIMG0oGycr8Zcn32XuU7EU4fT3QbuAq240"/>
 
 Ejercicio 9
 
-<img src = "https://www.plantuml.com/plantuml/svg/JSmnIaH1383X_fqYJEy5165bsK9msMBbOPit4nyZUObaCk8zF8N5gpp2N4n62wSAvF-IGt4qhnjFb-MLeiEnOZAT_WRSmbFRlRB27OIp2WBdWk4_7qr5MTUsOoSbhwpmF3-4ySDNb1n_U_jaqg5Twt8pzkjBtT17SKOdoyYGYA7ecvfJbvV5S63trTNw_f5Kq992GfYpn3oWKt7iXI2g5B9tZBbzIpyxVKHY4gSm7KXItVW7
-"/>
+<img src = "https://www.plantuml.com/plantuml/svg/JSmnIaH1383X_fqYJEy5165bsK9msMBbOPit4nyZUObaCk8zF8N5gpp2N4n62wSAvF-IGt4qhnjFb-MLeiEnOZAT_WRSmbFRlRB27OIp2WBdWk4_7qr5MTUsOoSbhwpmF3-4ySDNb1n_U_jaqg5Twt8pzkjBtT17SKOdoyYGYA7ecvfJbvV5S63trTNw_f5Kq992GfYpn3oWKt7iXI2g5B9tZBbzIpyxVKHY4gSm7KXItVW7"/>
 
 Ejercicio 16
 
