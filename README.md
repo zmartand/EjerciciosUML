@@ -25,6 +25,11 @@ Ejercicio 6
 <img src = "https://www.plantuml.com/plantuml/svg/LOzDpe8m48Rtd6B21UZt6V0dCM7bJYJH2vHsr37jbBGbyLxkt78nIy82LhEOPvvvtpf4wUDWJNRfNgWYjEY3OvdD4mxGEDjvX2FaBVOKNRxOjPuiUf0z6aFQJT3DUOzX2LtnCR1sA-gSlX8lgHEgfmIDm5AH9UGuWN-Y46NnByHc9NpFag06GxoA1CtuJPdSf2ATD7GdbPJZXzFDVhSjgoghaNKg_GC0
 " width = "350px"/>
 
+Ejercicio 7
+
+<img src = https://www.plantuml.com/plantuml/svg/PO-zJiCm54RtFCMLHuO8rao944mG8SG0esDVu4gsR_2F149ziQvziJfMMYkjDvyZVqVkGvG-9ciQPMG885uy_w6A30B-6yXdP3jvx43SmHl-HXQ5FgBwbg0Ho94YxY1RGZlprdwIw-2sRSzsT-eyv_laEO160my_YMOMELXxQsv1mup6aEQmeQziolRDYkhsK_gIViaFAYQfYDtbP-gpWk-PlKOdjOJtfJ4UzXRzbVkehkHwT3fPSmG0 
+" width = "350px"/>
+
 Ejercicio 8
 
 <img src = "https://www.plantuml.com/plantuml/svg/SoWkIImgAStDuV9FoafDBb5mJ2ufJKpEpC_ZWhCKh1JSKfCp4XLIKXKoypA1GWgs2WPc-WP6-aO6HiRO5QPbvW5L6HfWLHMIMG0oGycr8Zcn32XuU7EU4fT3QbuAq240
