@@ -1,0 +1,33 @@
+@startuml
+skinparam groupInheritance 2
+class Ciudad
+Ciudad : Nombre: "Texto"
+Ciudad : País: "Texto"
+Ciudad : Provincia "Texto"
+Ciudad "1" o-- "0..*" "Espacio Abierto"
+
+class "Espacio Abierto"
+"Espacio Abierto" : Nombre: "Texto"
+"Espacio Abierto" <|-- Calle
+"Espacio Abierto" <|-- Plaza
+"Espacio Abierto" "1" o-- "0..*" Edificio
+
+class Calle
+Calle : Longitud: "Número"
+
+class Plaza
+Plaza : Superficie: "Número"
+
+class Edificio
+Edificio : Número: "1 y texto"
+Edificio "1" o-- "0..*" "Elemento Estructural"
+
+class "Elemento Estructural"
+"Elemento Estructural" : Tipo: "1 enum TipoElemento"
+
+enum TipoElemento
+TipoElemento : Portada
+TipoElemento : Puerta
+TipoElemento : Ventana
+TipoElemento : Balcón
+@enduml

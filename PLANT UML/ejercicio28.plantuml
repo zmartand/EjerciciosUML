@@ -1,0 +1,42 @@
+@startuml
+skinparam groupInheritance 2
+
+class "Objeto Arqueológico"{
+Código: 1 texto
+Datación: 0..1 tiempo
+Dimensiones: ..?
+Descripción: 1 texto(S)
+Material: 1.. enum Material
+}
+"Objeto Arqueológico" <|-- "Fragmento de Objeto"
+"Objeto Arqueológico" <|-- "Objeto Completo"
+"Objeto Arqueológico" "0..*" -- "0..*" "Objeto Arqueológico"
+
+class Excavación{
+Fecha Inicio: 1 tiempo
+Fecha Fin: 0..1 tiempo
+}
+Excavación -- "Objeto Arqueológico" : < Apareció durante
+
+class "Sitio Arqueológico"
+"Sitio Arqueológico" "1" -- "0.." Excavación : < Tiene lugar sobre
+
+class "Fragmento de Objeto"
+class "Objeto Completo"{
+Uso: 1.. enum Uso
+}
+"Objeto Completo" "0..1" o-- "0.." "Objeto Arqueológico"
+
+enum Material{
+Roca
+Marmól
+Granito
+}
+ 
+enum Uso{
+Decorar
+Herramienta de Trabajar
+Entretener
+}
+
+@enduml

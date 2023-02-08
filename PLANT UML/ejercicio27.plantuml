@@ -1,0 +1,37 @@
+@startuml
+skinparam groupInheritance 2
+
+class "Entidad Arqueológica"{
+Cronología: 1 tiempo
+}
+"Entidad Arqueológica" <|-- "Sitio Arqueológico"
+"Entidad Arqueológica" <|-- "Conjunto Arqueológico" : Singular/Múltiple
+"Entidad Arqueológica" "1..*" --o "0..*" "Conjunto Arqueológico"
+"Entidad Arqueológica" "1" o-- "0..*" Dimensión : > Mide
+
+class "Sitio Arqueológico"{
+Tipo: 1 enum TipoSitio
+}
+
+class "Conjunto Arqueológico"
+
+class Dimensión{
+Nombre: 1 texto
+Medida: 1 número
+Unidad: 1 texto
+}
+
+class Lugar{
+Nombre: 1 texto
+Provincia: 1 texto
+País: 1 texto
+}
+Lugar "1" -- "0..*" "Entidad Arqueológica" : < Se Localiza En
+
+enum TipoSitio{
+Asentamiento
+Enterramiento
+Área de Explotación
+}
+
+@enduml

@@ -1,0 +1,68 @@
+@startuml
+skinparam groupInheritance 2
+class Nave{
+Superficie: 1 número
+}
+Nave "1" --o "0..1" "Iglesia Rural"
+Nave "1" --o "3..5" "Iglesia Monacal"
+class Ábside{
+Forma: 1 enum FormaÁbside
+}
+Ábside "1" --o "0..1" "Iglesia Rural"
+Ábside "1" --o "3..5" "Iglesia Monacal"
+
+class Iglesia{
+Nombre: 1 texto
+Dirección: 0..1 texto
+}
+Iglesia <|-- "Iglesia Rural"
+Iglesia <|-- "Iglesia Monacal"
+
+class "Iglesia Rural"
+"Iglesia Rural" "1" o-- "0..*" "Ventana Simple"
+class "Iglesia Monacal"{
+Orden: 1 texto
+}
+"Iglesia Monacal" "1" o-- "1..*" "Ventana Compleja"
+"Iglesia Monacal" "1" o-- "1" Crucero
+
+class Crucero{
+Tipo: 1 enum TipoCucero
+}
+
+class "Ventana Simple"{
+Tiene arco doble: 1 booleano
+Está decorada: 1 booleano
+Técnica de cierre: 1 enum TécnicaCierreSimple
+}
+
+class "Ventana Compleja"{
+Técnica de cierre: 1 enum TécnicaCierreComplejo
+}
+
+class Ventana{
+Descripción: 1 texto
+Altura: 1 número
+Anchura: 1 número
+}
+Ventana <|-- "Ventana Simple"
+Ventana <|-- "Ventana Compleja"
+
+enum TécnicaCierreSimple{
+Tela encerada
+Tela impregnada
+}
+enum TécnicaCierreComplejo{
+Vidriera incolora
+Vidriera coloreada
+}
+enum FormaÁbside{
+Semicircular
+En corona
+}
+enum TipoCrucero{
+Sin brazos salientes
+Con brazos salientes
+}
+
+@enduml

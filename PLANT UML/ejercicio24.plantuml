@@ -1,0 +1,17 @@
+@startuml
+skinparam groupInheritance 3
+class Escuela
+class Vivienda
+class Hospital
+
+class "Uso de Edificio"
+"Uso de Edificio" : Fecha de inicio: 1 Tiempo
+"Uso de Edificio" : Fecha de fin: 0..1 Tiempo
+"Uso de Edificio" <|-- Vivienda
+"Uso de Edificio" <|-- Hospital
+"Uso de Edificio" <|-- Escuela
+
+class Edificio
+Edificio o-- "Uso de Edificio"
+
+@enduml

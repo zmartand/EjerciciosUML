@@ -1,0 +1,12 @@
+@startuml
+skinparam groupInheritance 2
+
+class Edificio
+
+class Construcción
+Construcción <|-- Edificio
+Construcción <|-- "Conjunto Construido"
+
+class "Conjunto Construido"
+"Conjunto Construido" "0..1" o-- "0" Construcción
+@enduml
