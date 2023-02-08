@@ -19,9 +19,11 @@ Ejercicio 4
 "/>
 
 Ejercicio 5
+
 <img src="https://www.plantuml.com/plantuml/svg/NOz12i8m44NtEKN83NGljDJYHbruWo49DMMQaKbceSN3U1OlPecb5dV9d_S-CrNAm5a6L1OX9Tq4je8qgeQGME-qEN18Hkq333upJSb6FTLCNxpDxrViYd6as8KihY1rj5TXAE-bwWmCiGVpAsW478FxjnUZVWYky1R3BVbnDH-00o8PrVPUd-1UukttvoFnl6_bevkE_000"/>
 
 Ejercicio 6
+
 <img src = "https://www.plantuml.com/plantuml/svg/LOzDpe8m48Rtd6B21UZt6V0dCM7bJYJH2vHsr37jbBGbyLxkt78nIy82LhEOPvvvtpf4wUDWJNRfNgWYjEY3OvdD4mxGEDjvX2FaBVOKNRxOjPuiUf0z6aFQJT3DUOzX2LtnCR1sA-gSlX8lgHEgfmIDm5AH9UGuWN-Y46NnByHc9NpFag06GxoA1CtuJPdSf2ATD7GdbPJZXzFDVhSjgoghaNKg_GC0
 "/>
 
