@@ -1,0 +1,13 @@
+@startuml
+
+class "Poligono" {
+
+}
+
+class "Punto" {
+X: 1 numero
+Y: 1 numero
+}
+
+"Poligono" "1" o-- "3..*^" "Punto" : Posee >
+@enduml

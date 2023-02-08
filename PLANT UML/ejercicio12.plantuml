@@ -1,0 +1,15 @@
+@startuml
+class "Estructura" {
+Código: 1 Texto
+Datación: 0..1 Tiempo
+Materiales: 1..* enum Material
+}
+enum Material{
+Ladrillos
+Hormigón
+Cemento
+}
+
+"Estructura" "0..* sub-estructura" o-- "0..1" "Estructura"
+
+@enduml
