@@ -1,0 +1,33 @@
+@startuml
+Object Gioconda
+Gioconda : Título = "La Gioconda"
+Gioconda : AC = "1503 - 1516"
+Gioconda : Técnica = "Óleo"
+Gioconda : Sub-Técnica = "Sfumato"
+Gioconda : Soporte = "Madera de álamo"
+Gioconda : Autor = "Leonardo da Vinci"
+Gioconda : Estado de conservación = "Regular"
+
+Object Lugar1
+Lugar1 : Institución = "Museo del Louvre"
+Lugar1 : Ciudad = "París"
+Lugar1 : Pais = "Francia"
+
+Object Replica
+Replica : Título = "Gioconda de El Prado"
+Replica : AC = "1503 - 1516"
+Replica : Técnica = "Óleo"
+Replica : Sub-Técnica = "Pincelada simple"
+Replica : Soporte = "Madera de nogal"
+Replica : Autor = "desconocido"
+Replica : Estado de conservación = "Bueno"
+
+Object Lugar2
+Lugar2 : Institución = "Museo de El Prado"
+Lugar2 : Ciudad = "Madrid"
+Lugar2 : Pais = "España"
+
+Gioconda - Lugar1 : Se localiza en >
+Replica - Lugar2 : Se localiza en >
+Replica -- Gioconda : Es replica de >
+@enduml

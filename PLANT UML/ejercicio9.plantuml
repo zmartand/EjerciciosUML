@@ -1,0 +1,10 @@
+@startuml
+Object Cuadro
+Cuadro : Título = "Mona lisa"
+Cuadro : Cronología = "siglo XVI"
+Cuadro : Técnica = "Óleo"
+Cuadro : Sub-Técnica = "Sfumato"
+Cuadro : Material del soporte = "Obra"
+Cuadro : Autor = "Leonardo da Vinci"
+Cuadro : Estado de conservación = "Excelente"
+@enduml
