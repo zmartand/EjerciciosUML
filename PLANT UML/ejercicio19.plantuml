@@ -1,0 +1,60 @@
+@startuml
+class Restauración{
+Fecha = Tiempo
+Descripción = Texto
+Técnica = enum TécnicaRestauración
+}
+
+class Objeto{
+Código = Texto
+Nombre = Texto
+Autor  = Texto
+Fecha de Creación = Tiempo
+Descripción = Texto
+Origen = enum Lugar
+Estado = enum Estado
+Temática = enum Temática
+}
+
+Restauración "0..*" -- "1..*" Objeto : Se ha realizado sobre >
+
+class Colección{
+Nombre = Texto
+Descripción = Texto
+}
+
+
+class Ubicación{
+Código = Texto
+}
+
+class Sala extends Ubicación{
+Nombre = Texto
+Está abierta al público = booleano
+}
+
+class Alamacén extends Ubicación{
+Nombre = Texto
+}
+
+Objeto "0..*" - "1" Ubicación : Se ubica en >
+
+Colección "0..1" -- "1..*" Objeto : Pertrenece A <
+
+class ColeccionTemporal extends Colección{
+Fecha de inicio = Tiempo
+Fecha de fin = Tiempo
+}
+
+class Planta{
+Número = número
+}
+
+class Edificio{
+Nombre = Texto
+Dirección = Texto
+}
+
+Planta "1" o-- "0..*" Sala
+Edificio "1" o-- "1..*" Planta 
+@enduml

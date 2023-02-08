@@ -1,0 +1,22 @@
+@startuml
+class EntidadGeográfica{
+Código = Texto
+Nombre = Texto
+}
+
+class Punto extends EntidadGeográfica{
+X = Número
+Y = Número
+Z = Número
+}
+
+class Línea extends EntidadGeográfica{
+}
+
+class Área extends EntidadGeográfica{
+}
+
+Línea "0..*" o-- "2..*" Punto
+Área "0..*" o-- "3..*" Punto
+ 
+@enduml

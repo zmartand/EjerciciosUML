@@ -1,0 +1,29 @@
+@startuml
+class Forma{
+Color = Texto
+}
+
+class Cuadrilátero extends Forma{
+Longitud = Número
+}
+
+class Cónica extends Forma{
+}
+
+class Rectángulo extends Cuadrilátero{
+Anchura = Número
+}
+
+class Cuadrado extends Cuadrilátero{
+}
+
+class Círculo extends Cónica{
+Diámetro = Número
+}
+
+class Elipse extends Cónica{
+Eje Mayor = Número
+Eje Menor = Número
+}
+
+@enduml
